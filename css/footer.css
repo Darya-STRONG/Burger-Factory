@@ -1,0 +1,18 @@
+.footer {
+  background: #F5F5F5;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__link {
+  font-size: 14px;
+}
+.footer__contact {
+  text-align: end;
+}
+.footer__item a {
+  font-weight: 400;
+}
+

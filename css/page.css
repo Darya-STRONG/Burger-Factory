@@ -1,0 +1,162 @@
+.page__main {
+  flex: 1 1 auto;
+  background-image: url('/image/page_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.button_orange {
+  background-color: #F6E224;
+  max-width: 279px;
+  padding: 7px 25px;
+}
+.button_orange:hover {
+  background-color: #f6a624;
+}
+.main {
+  padding-top: 174px;
+}
+.main__container {
+  display: flex;
+  column-gap: 67px;
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.main__title {
+  font-weight: 900;
+  font-size: 84px;
+  min-width: 661px;
+  line-height: 1.39;
+}
+.main__images img {
+  max-width: 100%;
+  min-width:  229px;
+}
+.main__subtitle {
+  line-height: 1.38;
+}
+.story__container {
+  display: flex;
+  column-gap: 67px;
+}
+.story__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  max-width: 668px;
+}
+.story__images img {
+  max-width: 100%;
+}
+.story__text p{
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 894px;
+  line-height: 1.48;
+  text-align: start;
+  margin: 0 auto;
+}
+.cards__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__items{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.card__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 26px;
+  flex-basis: calc(33.33% - 20px);
+  padding: 20px 110px 81px 110px;
+  position: relative;
+}
+.card__item__img {
+  width: 110%;
+  height: auto;
+}
+.card__item__text {
+  padding-bottom: 61px;
+  text-align: center;
+  min-width: 200%;
+}
+/* .card__details {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+} */
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.card__menu__title {
+  font-size: 14px;
+}
+.sub-menu__link {
+  font-size: 14px;
+  font-weight: 400;
+}
+.details {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 18px;
+  color: #008BF6;
+}
+.card__sub-menu__list {
+  position: absolute;
+  bottom: 45px;
+  left: 20px;
+  display: none;
+}
+.card__sub-menu__list.open {
+  display: block;
+}
+.padding {
+  margin-bottom: 209px;
+}
+.location__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  padding-bottom: 150px;
+}
+.location__items {
+  font-weight: 400;
+  display: flex;
+  column-gap: 30px;
+}
+.item-black {
+  font-weight: 700;
+}
+.location__maps {
+  position: relative;
+}
+.white-colo {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFF;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.maps {
+  width: 100%;
+}
+.burger-mark a {
+  bottom: 0px;
+}

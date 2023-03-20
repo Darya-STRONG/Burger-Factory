@@ -58,6 +58,12 @@
   }
 }
 @media (max-width: 767.98px) {
+  [class*="__container"] {
+    max-width: 1452px;
+    margin: 0 auto;
+    padding: 0px 50px;
+    padding-top: 50px!important;
+  }
   .header__container,
   .menu__list {
     column-gap: 15px;
@@ -130,6 +136,9 @@
     position: absolute;
     right:120px;
   }
+  .main__images img {
+    display: none;
+  }
 }
 @media (max-width: 560px) {
   .header__logo {
@@ -163,8 +172,11 @@
     width: 100%;
   }
 }
-@media (max-width: 320px) {
-
+@media (max-width: 540px) {
+  .footer__content {
+    flex-direction: column-reverse;
+    row-gap: 10px;
+  }
 }
 
 

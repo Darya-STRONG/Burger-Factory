@@ -22,6 +22,10 @@ $(document).ready(function(){
     centerMode:true,
     variableWidth:true,
     initialSlide:2,
+    draggable:true,
+    swipe:true,
+    touchThreshold:1,
+    touchMove:true,
     responsive: [
       {
         breakpoint: 1024,

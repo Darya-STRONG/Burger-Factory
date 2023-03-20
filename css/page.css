@@ -160,3 +160,8 @@ li {
 .burger-mark a {
   bottom: 0px;
 }
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior:smooth;
+  }
+}

@@ -177,6 +177,15 @@
     flex-direction: column-reverse;
     row-gap: 10px;
   }
+  .shadow {
+    display: none;
+  }
+  .slider__shadow {
+    display: block;
+  }
+  .slider {
+    margin-top: 10px;
+  }
 }
 
 
